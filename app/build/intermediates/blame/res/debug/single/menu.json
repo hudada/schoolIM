@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\menu\\em_delete_message.xml",
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\menu\\em_delete_message.xml"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\menu\\em_context_tab_contact.xml",
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\menu\\em_context_tab_contact.xml"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\menu\\em_remove_from_blacklist.xml",
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\menu\\em_remove_from_blacklist.xml"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\menu\\em_delete_contact.xml",
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\menu\\em_delete_contact.xml"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\menu\\em_context_contact_list.xml",
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\menu\\em_context_contact_list.xml"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\menu\\em_multi_device_menu_item.xml",
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\menu\\em_multi_device_menu_item.xml"
+    }
+]

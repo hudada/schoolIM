@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_screen_share_white_24dp.png",
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-xxhdpi\\ic_screen_share_white_24dp.png"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_volume_up_white_24dp.png",
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-xxhdpi\\ic_volume_up_white_24dp.png"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_camera_front_white_24dp.png",
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-xxhdpi\\ic_camera_front_white_24dp.png"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_call_end_white_24dp.png",
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-xxhdpi\\ic_call_end_white_24dp.png"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_call_white_24dp.png",
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-xxhdpi\\ic_call_white_24dp.png"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_videocam_off_white_24dp.png",
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-xxhdpi\\ic_videocam_off_white_24dp.png"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_fullscreen_exit_white_24dp.png",
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-xxhdpi\\ic_fullscreen_exit_white_24dp.png"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_camera_rear_white_24dp.png",
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-xxhdpi\\ic_camera_rear_white_24dp.png"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\em_logo_uidemo.png",
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-xxhdpi\\em_logo_uidemo.png"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_mic_off_white_24dp.png",
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-xxhdpi\\ic_mic_off_white_24dp.png"
+    }
+]

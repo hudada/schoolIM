@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\hmspush\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\upsdk_btn_emphasis_normal_layer.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5ff897b176df1eed0f6fceaa85b70d6f68482778\\output\\res\\drawable-xxxhdpi-v4\\upsdk_btn_emphasis_normal_layer.9.png"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\hmspush\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\upsdk_cancel_normal.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5ff897b176df1eed0f6fceaa85b70d6f68482778\\output\\res\\drawable-xxxhdpi-v4\\upsdk_cancel_normal.png"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\hmspush\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\upsdk_cancel_pressed.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5ff897b176df1eed0f6fceaa85b70d6f68482778\\output\\res\\drawable-xxxhdpi-v4\\upsdk_cancel_pressed.png"
+    }
+]

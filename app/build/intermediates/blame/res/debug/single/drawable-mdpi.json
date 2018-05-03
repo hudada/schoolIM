@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\em_logo_uidemo.png",
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-mdpi\\em_logo_uidemo.png"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\em_unread_count_bg.9.png",
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-mdpi\\em_unread_count_bg.9.png"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\hmspush\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\hwpush_layout4.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e41c63515a08e8a405e15c4bcfa6c663251cf2d9\\output\\res\\layout\\hwpush_layout4.xml"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\hmspush\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\hwpush_layout8.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e41c63515a08e8a405e15c4bcfa6c663251cf2d9\\output\\res\\layout\\hwpush_layout8.xml"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\hmspush\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\hwpush_layout7.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e41c63515a08e8a405e15c4bcfa6c663251cf2d9\\output\\res\\layout\\hwpush_layout7.xml"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\hmspush\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\hwpush_layout2.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e41c63515a08e8a405e15c4bcfa6c663251cf2d9\\output\\res\\layout\\hwpush_layout2.xml"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\hmspush\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\upsdk_ota_update_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5ff897b176df1eed0f6fceaa85b70d6f68482778\\output\\res\\layout\\upsdk_ota_update_view.xml"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\hmspush\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\upsdk_app_dl_progress_dialog.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5ff897b176df1eed0f6fceaa85b70d6f68482778\\output\\res\\layout\\upsdk_app_dl_progress_dialog.xml"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\hmspush\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\hwpush_buttons_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e41c63515a08e8a405e15c4bcfa6c663251cf2d9\\output\\res\\layout\\hwpush_buttons_layout.xml"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\hmspush\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\hwpush_icons_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e41c63515a08e8a405e15c4bcfa6c663251cf2d9\\output\\res\\layout\\hwpush_icons_layout.xml"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\hmspush\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\hms_download_progress.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5ff897b176df1eed0f6fceaa85b70d6f68482778\\output\\res\\layout\\hms_download_progress.xml"
+    }
+]
