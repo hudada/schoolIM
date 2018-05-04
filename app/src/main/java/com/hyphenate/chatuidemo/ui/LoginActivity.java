@@ -103,9 +103,6 @@ public class LoginActivity extends BaseActivity {
 			usernameEditText.setText(DemoHelper.getInstance().getCurrentUsernName());
 		}
 
-		TextView serviceCheckTV = (TextView) findViewById(R.id.txt_service_ckeck);
-		serviceCheckTV.getPaint().setFlags(Paint.UNDERLINE_TEXT_FLAG);
-
 		HMSPushHelper.getInstance().connectHMS(this);
 	}
 

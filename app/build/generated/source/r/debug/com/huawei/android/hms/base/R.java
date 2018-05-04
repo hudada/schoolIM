@@ -26,27 +26,27 @@ public final class R {
         public static final int upsdk_update_all_button = 0x7f0201a3;
     }
     public static final class id {
-        public static final int action = 0x7f0b01dc;
-        public static final int appsize_textview = 0x7f0b01e7;
-        public static final int cancel_imageview = 0x7f0b01df;
-        public static final int content_layout = 0x7f0b01e8;
-        public static final int content_textview = 0x7f0b01e9;
-        public static final int divider = 0x7f0b01e1;
-        public static final int download_info_progress = 0x7f0b01cb;
-        public static final int hms_message_text = 0x7f0b01c8;
-        public static final int hms_progress_bar = 0x7f0b01ca;
-        public static final int hms_progress_text = 0x7f0b01c9;
+        public static final int action = 0x7f0b01db;
+        public static final int appsize_textview = 0x7f0b01e6;
+        public static final int cancel_imageview = 0x7f0b01de;
+        public static final int content_layout = 0x7f0b01e7;
+        public static final int content_textview = 0x7f0b01e8;
+        public static final int divider = 0x7f0b01e0;
+        public static final int download_info_progress = 0x7f0b01ca;
+        public static final int hms_message_text = 0x7f0b01c7;
+        public static final int hms_progress_bar = 0x7f0b01c9;
+        public static final int hms_progress_text = 0x7f0b01c8;
         public static final int name = 0x7f0b00a3;
-        public static final int name_layout = 0x7f0b01e2;
-        public static final int name_textview = 0x7f0b01e3;
-        public static final int size = 0x7f0b01eb;
-        public static final int size_layout = 0x7f0b01e6;
-        public static final int third_app_dl_progress_text = 0x7f0b01dd;
-        public static final int third_app_dl_progressbar = 0x7f0b01e0;
-        public static final int third_app_warn_text = 0x7f0b01de;
-        public static final int version = 0x7f0b01ea;
-        public static final int version_layout = 0x7f0b01e4;
-        public static final int version_textview = 0x7f0b01e5;
+        public static final int name_layout = 0x7f0b01e1;
+        public static final int name_textview = 0x7f0b01e2;
+        public static final int size = 0x7f0b01ea;
+        public static final int size_layout = 0x7f0b01e5;
+        public static final int third_app_dl_progress_text = 0x7f0b01dc;
+        public static final int third_app_dl_progressbar = 0x7f0b01df;
+        public static final int third_app_warn_text = 0x7f0b01dd;
+        public static final int version = 0x7f0b01e9;
+        public static final int version_layout = 0x7f0b01e3;
+        public static final int version_textview = 0x7f0b01e4;
     }
     public static final class layout {
         public static final int hms_download_progress = 0x7f030091;

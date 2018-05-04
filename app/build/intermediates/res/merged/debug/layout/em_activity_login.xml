@@ -10,12 +10,14 @@
         android:layout_height="0dip"
         android:layout_weight="1" >
 
-        <ImageView
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_centerInParent="true"
-            android:src="@drawable/em_welcom_logo" />
+            android:layout_marginTop="60dip"
+            android:text="校园IM"
+            android:textColor="#000"
+            android:textSize="30sp" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -127,25 +129,6 @@
                 android:textSize="18sp" />
         </LinearLayout>
 
-        <!-- Add the RelativeLayout to avoid service-check text be pushed upon the keyboard -->
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@+id/ll_btn">
-
-            <TextView
-                android:id="@+id/txt_service_ckeck"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentRight="true"
-                android:layout_marginBottom="20dip"
-                android:layout_marginRight="28dip"
-                android:onClick="serviceCheck"
-                android:padding="2dip"
-                android:text="@string/sdk_service_check"
-                android:textSize="16sp" />
-        </RelativeLayout>
 
     </RelativeLayout>
 
