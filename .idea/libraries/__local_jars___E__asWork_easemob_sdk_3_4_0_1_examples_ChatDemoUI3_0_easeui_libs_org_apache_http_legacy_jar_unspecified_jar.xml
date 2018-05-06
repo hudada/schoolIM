@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="__local_jars__:E.\asWork\easemob-sdk-3.4.0.1\examples\ChatDemoUI3.0\easeui\libs\org.apache.http.legacy.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/easeui/libs/org.apache.http.legacy.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,7 +1,7 @@
 [
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_bottom_in.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_bottom_in.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
@@ -17,19 +17,19 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\head_in.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\head_in.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\head_in.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_out.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_top_out.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_top_out.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\hold.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\hold.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\hold.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_right.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\slide_out_to_right.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\slide_out_to_right.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
@@ -37,11 +37,11 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\head_out.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\head_out.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\head_out.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\voice_from_icon.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\voice_from_icon.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\voice_from_icon.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
@@ -49,11 +49,11 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\voice_to_icon.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\voice_to_icon.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\voice_to_icon.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_out2.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_top_out2.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_top_out2.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
@@ -61,15 +61,15 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\fade_out.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\fade_out.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_left.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\slide_out_to_left.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\slide_out_to_left.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_in.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_top_in.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_top_in.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
@@ -85,11 +85,11 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_left.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\slide_in_from_left.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\slide_in_from_left.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_out.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_bottom_out.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_bottom_out.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
@@ -97,14 +97,14 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\fade_in.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\fade_in.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_right.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\slide_in_from_right.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\slide_in_from_right.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_in2.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_top_in2.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_top_in2.xml"
     }
 ]

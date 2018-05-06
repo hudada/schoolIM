@@ -1,7 +1,7 @@
 [
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_emojicon_tab_bar.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_widget_emojicon_tab_bar.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_widget_emojicon_tab_bar.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_recorder_activity.xml",
@@ -25,7 +25,7 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_big_expression.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_big_expression.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_big_expression.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_login.xml",
@@ -33,7 +33,7 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_scroll_tab_item.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_scroll_tab_item.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_scroll_tab_item.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
@@ -53,7 +53,7 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_video_call.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_video_call.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_video_call.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_context_menu_for_voice.xml",
@@ -65,7 +65,7 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_search_bar.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_search_bar.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_search_bar.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
@@ -101,11 +101,11 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_contact_list.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_widget_contact_list.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_widget_contact_list.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_chat_menu_item.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_chat_menu_item.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_chat_menu_item.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
@@ -125,11 +125,11 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_location.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_sent_location.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_sent_location.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_voice.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_sent_voice.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_sent_voice.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_context_menu_for_image.xml",
@@ -137,15 +137,15 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_showvideo_activity.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_showvideo_activity.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_showvideo_activity.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_message.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_message.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_message.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_activity_ding_ack_user_list.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_activity_ding_ack_user_list.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_activity_ding_ack_user_list.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_shared_file_row.xml",
@@ -181,7 +181,7 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_layout_emojicon_menu.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_layout_emojicon_menu.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_layout_emojicon_menu.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_offline_push.xml",
@@ -205,7 +205,7 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_video.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_video.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_video.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_new_group.xml",
@@ -217,7 +217,7 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_ding_ack_user.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_ding_ack_user.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_ding_ack_user.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hwpush_icons_layout.xml",
@@ -249,11 +249,11 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_message.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_sent_message.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_sent_message.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_activity_show_big_image.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_activity_show_big_image.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_activity_show_big_image.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_video_call.xml",
@@ -261,7 +261,7 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_switch_button.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_widget_switch_button.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_widget_switch_button.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hms_download_progress.xml",
@@ -269,7 +269,7 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_video_call.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_sent_video_call.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_sent_video_call.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\upsdk_ota_update_view.xml",
@@ -281,7 +281,7 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_title_bar.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_widget_title_bar.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_widget_title_bar.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
@@ -293,7 +293,7 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_fragment_chat.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_fragment_chat.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_fragment_chat.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_row_recall_message.xml",
@@ -313,15 +313,15 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_activity_show_file.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_activity_show_file.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_activity_show_file.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_file.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_file.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_file.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_alert_dialog.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_alert_dialog.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_alert_dialog.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_row_add_group.xml",
@@ -353,7 +353,7 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_search_bar_with_padding.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_search_bar_with_padding.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_search_bar_with_padding.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_splash.xml",
@@ -365,7 +365,7 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_voice_call.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_voice_call.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_voice_call.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
@@ -385,11 +385,11 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_fragment_conversation_list.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_fragment_conversation_list.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_fragment_conversation_list.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_picture.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_picture.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_picture.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_grid_owner.xml",
@@ -397,11 +397,11 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_conversation_item.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_conversation_item.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_conversation_item.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_expression_gridview.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_expression_gridview.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_expression_gridview.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shared_files.xml",
@@ -413,7 +413,7 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_chat_primary_menu.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_widget_chat_primary_menu.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_widget_chat_primary_menu.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
@@ -425,15 +425,15 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_video.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_sent_video.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_sent_video.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_bigexpression.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_sent_bigexpression.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_sent_bigexpression.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_chat_history.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_chat_history.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_chat_history.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_chat_neterror_item.xml",
@@ -441,11 +441,11 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_chat_input_menu.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_widget_chat_input_menu.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_widget_chat_input_menu.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_contact.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_contact.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_contact.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_row_group.xml",
@@ -453,7 +453,7 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_location.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_location.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_location.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_group_pick_contacts.xml",
@@ -473,11 +473,11 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_emojicon.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_widget_emojicon.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_widget_emojicon.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_expression.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_expression.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_expression.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
@@ -493,7 +493,7 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_layout_chat_primary_menu.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_layout_chat_primary_menu.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_layout_chat_primary_menu.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_group_details.xml",
@@ -505,7 +505,7 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_voice.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_voice.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_voice.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
@@ -525,7 +525,7 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_emojicon.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_emojicon.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_emojicon.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_contacts_header.xml",
@@ -541,7 +541,7 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_fragment_contact_list.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_fragment_contact_list.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_fragment_contact_list.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_widget_contact_item.xml",
@@ -553,7 +553,7 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_picture.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_sent_picture.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_sent_picture.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_listview_footer_view.xml",
@@ -569,7 +569,7 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_acitivity_ding_msg_send.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_acitivity_ding_msg_send.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_acitivity_ding_msg_send.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
@@ -581,11 +581,11 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_commom_back_btn.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_commom_back_btn.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_commom_back_btn.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_file.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_sent_file.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_sent_file.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\upsdk_app_dl_progress_dialog.xml",
@@ -601,7 +601,7 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_voice_call.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_sent_voice_call.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_sent_voice_call.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_row_search_message.xml",
@@ -621,11 +621,11 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_voice_recorder.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_widget_voice_recorder.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_widget_voice_recorder.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_bigexpression.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_bigexpression.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_bigexpression.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_context_menu_for_location.xml",
@@ -637,7 +637,7 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_chat_message_list.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_chat_message_list.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_chat_message_list.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_public_groups.xml",
@@ -661,6 +661,6 @@
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_activity_baidumap.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_activity_baidumap.xml"
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_activity_baidumap.xml"
     }
 ]
