@@ -52,12 +52,12 @@
         "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\layout\\em_activity_public_groups_search.xml"
     },
     {
-        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_video_call.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_video_call.xml"
-    },
-    {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_context_menu_for_voice.xml",
         "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\layout\\em_context_menu_for_voice.xml"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_video_call.xml",
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_video_call.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",

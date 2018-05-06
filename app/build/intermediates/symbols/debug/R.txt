@@ -1007,7 +1007,7 @@ int id btn_address_list 0x7f0b0136
 int id btn_answer_call 0x7f0b016c
 int id btn_camera_switch 0x7f0b0069
 int id btn_cancel 0x7f0b006c
-int id btn_capture_image 0x7f0b0161
+int id btn_capture_image 0x7f0b0160
 int id btn_change_camera_switch 0x7f0b006b
 int id btn_container_address_list 0x7f0b0135
 int id btn_container_conversation 0x7f0b0133
@@ -1018,7 +1018,7 @@ int id btn_destroy_chatroom 0x7f0b0109
 int id btn_exit 0x7f0b006d
 int id btn_exit_grp 0x7f0b0125
 int id btn_exitdel_grp 0x7f0b0126
-int id btn_hangup_call 0x7f0b0169
+int id btn_hangup_call 0x7f0b0168
 int id btn_invite_join 0x7f0b0065
 int id btn_location_send 0x7f0b0089
 int id btn_logout 0x7f0b01ac
@@ -1036,7 +1036,7 @@ int id btn_set_mode_keyboard 0x7f0b00cd
 int id btn_set_mode_voice 0x7f0b00cc
 int id btn_setting 0x7f0b0139
 int id btn_speaker_switch 0x7f0b0068
-int id btn_switch_camera 0x7f0b0160
+int id btn_switch_camera 0x7f0b0169
 int id bubble 0x7f0b00ac
 int id buttonPanel 0x7f0b003a
 int id button_avatar 0x7f0b01ad
@@ -1144,9 +1144,9 @@ int id iv_call_icon 0x7f0b00bb
 int id iv_expression 0x7f0b009d
 int id iv_face_checked 0x7f0b00d2
 int id iv_face_normal 0x7f0b00d1
-int id iv_handsfree 0x7f0b0168
+int id iv_handsfree 0x7f0b0167
 int id iv_icon 0x7f0b00c3
-int id iv_mute 0x7f0b0167
+int id iv_mute 0x7f0b0166
 int id iv_neterror 0x7f0b0171
 int id iv_password 0x7f0b0077
 int id iv_password2 0x7f0b014a
@@ -1180,7 +1180,7 @@ int id list_item 0x7f0b0037
 int id list_view 0x7f0b0086
 int id listview 0x7f0b0129
 int id ll_black_list 0x7f0b0197
-int id ll_bottom_container 0x7f0b0165
+int id ll_bottom_container 0x7f0b0164
 int id ll_btn 0x7f0b0130
 int id ll_btns 0x7f0b0159
 int id ll_call_option 0x7f0b019b
@@ -1192,11 +1192,11 @@ int id ll_multi_device_management 0x7f0b019c
 int id ll_open_invite 0x7f0b0140
 int id ll_service_check 0x7f0b0198
 int id ll_set_push_nick 0x7f0b019a
-int id ll_surface_baseline 0x7f0b0164
+int id ll_surface_baseline 0x7f0b0163
 int id ll_top_container 0x7f0b015a
 int id ll_user 0x7f0b00e6
 int id ll_user_profile 0x7f0b0196
-int id ll_voice_control 0x7f0b0166
+int id ll_voice_control 0x7f0b0165
 int id loading 0x7f0b012b
 int id loading_bar 0x7f0b01b2
 int id loading_layout 0x7f0b008c
@@ -1327,7 +1327,7 @@ int id search_plate 0x7f0b0059
 int id search_src_text 0x7f0b005a
 int id search_voice_btn 0x7f0b005e
 int id second_desc 0x7f0b0141
-int id seekbar_y_detal 0x7f0b0162
+int id seekbar_y_detal 0x7f0b0161
 int id select_dialog_listview 0x7f0b005f
 int id set_autodownload_thumbnail 0x7f0b01a5
 int id set_transfer_file_by_userself 0x7f0b01a3
@@ -1401,7 +1401,7 @@ int id topPanel 0x7f0b003d
 int id top_bar 0x7f0b00e8
 int id tv_ack 0x7f0b00c0
 int id tv_admin 0x7f0b012d
-int id tv_call_monitor 0x7f0b0163
+int id tv_call_monitor 0x7f0b0162
 int id tv_call_state 0x7f0b015b
 int id tv_calling_duration 0x7f0b016f
 int id tv_cancel 0x7f0b0127

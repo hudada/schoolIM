@@ -64,12 +64,12 @@
         "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_chatting_setmode_keyboard_btn.xml"
     },
     {
-        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\em_button_selector_shape.xml",
-        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable\\em_button_selector_shape.xml"
-    },
-    {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\51348fc46f115e760abe4d493fb742c3976aca70\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\em_button_selector_shape.xml",
+        "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable\\em_button_selector_shape.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\em_btn_green_selector.xml",
@@ -136,12 +136,12 @@
         "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable\\em_chat_video_selector.xml"
     },
     {
-        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\51348fc46f115e760abe4d493fb742c3976aca70\\output\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_pressed_shape.xml",
         "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_btn_blue_pressed_shape.xml"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\51348fc46f115e760abe4d493fb742c3976aca70\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
@@ -156,12 +156,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\6b58e735fed361c51cb8099157aaf162bfd5d429\\output\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
     },
     {
-        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6b58e735fed361c51cb8099157aaf162bfd5d429\\output\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
-    },
-    {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_press_speak_btn.xml",
         "source": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_chat_press_speak_btn.xml"
+    },
+    {
+        "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6b58e735fed361c51cb8099157aaf162bfd5d429\\output\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "E:\\asWork\\easemob-sdk-3.4.0.1\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
