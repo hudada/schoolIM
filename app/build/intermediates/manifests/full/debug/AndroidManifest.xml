@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hyphenate.chatuidemo"
+    package="com.example.schoolIM"
     android:versionCode="48"
     android:versionName="3.4.0.1" >
 
@@ -31,7 +31,7 @@
     <!-- bugly end -->
 
     <permission
-        android:name="com.hyphenate.chatuidemo.permission.MIPUSH_RECEIVE"
+        android:name="com.hyphenate.schoolIM.permission.MIPUSH_RECEIVE"
         android:protectionLevel="signatureOrSystem" />
 
     <uses-permission android:name="com.hyphenate.chatuidemo.permission.MIPUSH_RECEIVE" />
@@ -39,18 +39,18 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="com.hyphenate.chatuidemo.permission.C2D_MESSAGE"
+        android:name="com.example.schoolIM.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.hyphenate.chatuidemo.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.example.schoolIM.permission.C2D_MESSAGE" />
 
     <application
-        android:name="com.hyphenate.chatuidemo.DemoApplication"
+        android:name="com.example.schoolIM.DemoApplication"
         android:allowBackup="true"
         android:icon="@drawable/em_logo_uidemo"
         android:label="@string/app_name" >
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.MainActivity"
+            android:name="com.example.schoolIM.ui.MainActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
@@ -58,7 +58,7 @@
 
         <!-- 开屏页 -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.SplashActivity"
+            android:name="com.example.schoolIM.ui.SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" >
             <intent-filter>
@@ -70,80 +70,80 @@
 
         <!-- 登陆 -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.LoginActivity"
+            android:name="com.example.schoolIM.ui.LoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustResize|stateVisible" />
 
         <!-- SDK接口诊断 -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.ServiceCheckActivity"
+            android:name="com.example.schoolIM.ui.ServiceCheckActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustResize|stateVisible" />
 
         <!-- 注册 -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.RegisterActivity"
+            android:name="com.example.schoolIM.ui.RegisterActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustResize|stateVisible" />
         <!-- 聊天页面 -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.ChatActivity"
+            android:name="com.example.schoolIM.ui.ChatActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustResize" />
         <!-- 添加好友 -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.AddContactActivity"
+            android:name="com.example.schoolIM.ui.AddContactActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="stateVisible" />
         <!-- 群组详情 -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.GroupDetailsActivity"
+            android:name="com.example.schoolIM.ui.GroupDetailsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <!-- 群组列表 -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.GroupsActivity"
+            android:name="com.example.schoolIM.ui.GroupsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustPan" />
 
         <!-- 聊天室详情 -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.ChatRoomDetailsActivity"
+            android:name="com.example.schoolIM.ui.ChatRoomDetailsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <!-- 新建聊天室 -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.NewChatRoomActivity"
+            android:name="com.example.schoolIM.ui.NewChatRoomActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustPan" />
 
         <!-- 新建群组 -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.NewGroupActivity"
+            android:name="com.example.schoolIM.ui.NewGroupActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustPan" />
         <!-- 退出群组提示框 -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.ExitGroupDialog"
+            android:name="com.example.schoolIM.ui.ExitGroupDialog"
             android:screenOrientation="portrait"
             android:theme="@style/MyDialogStyleBottom" />
         <!-- 群组选人 -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.GroupPickContactsActivity"
+            android:name="com.example.schoolIM.ui.GroupPickContactsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.PickAtUserActivity"
+            android:name="com.example.schoolIM.ui.PickAtUserActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <!-- 地图 -->
@@ -154,18 +154,18 @@
 
         <!-- 新的朋友邀请消息页面 -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.NewFriendsMsgActivity"
+            android:name="com.example.schoolIM.ui.NewFriendsMsgActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <!-- 转发消息用户列表页面 -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.ForwardMessageActivity"
+            android:name="com.example.schoolIM.ui.ForwardMessageActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustPan" />
         <!-- 自定义的contextmenu -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.ContextMenuActivity"
+            android:name="com.example.schoolIM.ui.ContextMenuActivity"
             android:screenOrientation="portrait"
             android:theme="@style/MyDialogStyle" />
         <!-- 显示下载大图页面 -->
@@ -180,74 +180,74 @@
             android:theme="@style/horizontal_slide" />
         <!-- 黑名单 -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.BlacklistActivity"
+            android:name="com.example.schoolIM.ui.BlacklistActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
 
         <!-- 公开的群聊列表 -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.PublicGroupsActivity"
+            android:name="com.example.schoolIM.ui.PublicGroupsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.PublicChatRoomsActivity"
+            android:name="com.example.schoolIM.ui.PublicChatRoomsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustPan" />
 
         <!-- 语音通话 -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.VoiceCallActivity"
+            android:name="com.example.schoolIM.ui.VoiceCallActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/nornal_style" />
         <!-- 视频通话 -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.VideoCallActivity"
+            android:name="com.example.schoolIM.ui.VideoCallActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <!-- 多人会议 -->
         <activity
-            android:name="com.hyphenate.chatuidemo.conference.ConferenceActivity"
+            android:name="com.example.schoolIM.conference.ConferenceActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <!-- 邀请加入会议 -->
         <activity
-            android:name="com.hyphenate.chatuidemo.conference.ConferenceInviteJoinActivity"
+            android:name="com.example.schoolIM.conference.ConferenceInviteJoinActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <!-- 群聊简单信息 -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.GroupSimpleDetailActivity"
+            android:name="com.example.schoolIM.ui.GroupSimpleDetailActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <!-- 群组黑名单用户列表 -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.GroupBlacklistActivity"
+            android:name="com.example.schoolIM.ui.GroupBlacklistActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.GroupSearchMessageActivity"
+            android:name="com.example.schoolIM.ui.GroupSearchMessageActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="stateVisible" />
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.PublicGroupsSeachActivity"
+            android:name="com.example.schoolIM.ui.PublicGroupsSeachActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.EditActivity"
+            android:name="com.example.schoolIM.ui.EditActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="stateVisible" />
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.SharedFilesActivity"
+            android:name="com.example.schoolIM.ui.SharedFilesActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <activity
@@ -269,63 +269,63 @@
             android:windowSoftInputMode="stateAlwaysHidden" />
         <!-- choose video -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.ImageGridActivity"
+            android:name="com.example.schoolIM.ui.ImageGridActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.RecorderVideoActivity"
+            android:name="com.example.schoolIM.ui.RecorderVideoActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <!-- upload error log -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.DiagnoseActivity"
+            android:name="com.example.schoolIM.ui.DiagnoseActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.MultiDeviceActivity"
+            android:name="com.example.schoolIM.ui.MultiDeviceActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.NamePasswordActivity"
+            android:name="com.example.schoolIM.ui.NamePasswordActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
 
         <!-- iOS offline push nick -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.OfflinePushNickActivity"
+            android:name="com.example.schoolIM.ui.OfflinePushNickActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <!-- robots list -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.RobotsActivity"
+            android:name="com.example.schoolIM.ui.RobotsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <!-- user profile -->
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.UserProfileActivity"
+            android:name="com.example.schoolIM.ui.UserProfileActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.SetServersActivity"
+            android:name="com.example.schoolIM.ui.SetServersActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.OfflinePushSettingsActivity"
+            android:name="com.example.schoolIM.ui.OfflinePushSettingsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <activity
-            android:name="com.hyphenate.chatuidemo.ui.CallOptionActivity"
+            android:name="com.example.schoolIM.ui.CallOptionActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
 
         <!-- 开机自启动服务 -->
-        <receiver android:name="com.hyphenate.chatuidemo.receiver.StartServiceReceiver" >
+        <receiver android:name="com.example.schoolIM.receiver.StartServiceReceiver" >
             <intent-filter android:priority="1000" >
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.intent.action.QUICKBOOT_POWERON" />
@@ -335,12 +335,12 @@
         </receiver>
 
         <!-- FCM required start -->
-        <service android:name="com.hyphenate.chatuidemo.fcm.EMFCMMSGService" >
+        <service android:name="com.example.schoolIM.fcm.EMFCMMSGService" >
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-        <service android:name="com.hyphenate.chatuidemo.fcm.EMFCMTokenRefreshService" >
+        <service android:name="com.example.schoolIM.fcm.EMFCMTokenRefreshService" >
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
@@ -379,7 +379,7 @@
                 此receiver类需要开发者自己创建并继承com.huawei.hms.support.api.push.PushReceiver类，
                 参考示例代码中的类：com.huawei.hmsagent.HuaweiPushRevicer
         -->
-        <receiver android:name="com.hyphenate.chatuidemo.receiver.HMSPushReceiver" >
+        <receiver android:name="com.example.schoolIM.receiver.HMSPushReceiver" >
             <intent-filter>
 
                 <!-- 必须,用于接收 TOKEN -->
@@ -452,12 +452,12 @@
             android:value="appid=10492024" /> <!-- 接入HMSSDK 需要注册的provider，authorities 一定不能与其他应用一样，所以这边 com.hyphenate.chatuidemo 要替换上您应用的包名 -->
         <provider
             android:name="com.huawei.hms.update.provider.UpdateProvider"
-            android:authorities="com.hyphenate.chatuidemo.hms.update.provider"
+            android:authorities="com.hyphenate.schoolIM.hms.update.provider"
             android:exported="false"
             android:grantUriPermissions="true" /> <!-- 接入HMSSDK 需要注册的provider，authorities 一定不能与其他应用一样，所以这边 com.hyphenate.chatuidemo 要替换上您应用的包名 -->
         <provider
             android:name="com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider"
-            android:authorities="com.hyphenate.chatuidemo.updateSdk.fileProvider"
+            android:authorities="com.hyphenate.schoolIM.updateSdk.fileProvider"
             android:exported="false"
             android:grantUriPermissions="true" /> <!-- 使用 HMSAgent 代码接入HMSSDK 需要注册的activity -->
         <activity
@@ -541,7 +541,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.hyphenate.chatuidemo" />
+                <category android:name="com.example.schoolIM" />
             </intent-filter>
         </receiver>
         <!--
@@ -565,7 +565,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.hyphenate.chatuidemo.firebaseinitprovider"
+            android:authorities="com.example.schoolIM.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 

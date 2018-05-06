@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.hyphenate.chatuidemo.ui.MultiDeviceActivity">
+    tools:context="com.hyphenate.schoolIM.com.example.schoolIM.ui.MultiDeviceActivity">
 
     <RelativeLayout
         android:id="@+id/title"

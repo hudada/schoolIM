@@ -24,7 +24,7 @@
             >
 
             <!--多人会议时显示成员画面控件容器-->
-            <com.hyphenate.chatuidemo.widget.EaseViewGroup
+            <com.example.schoolIM.widget.EaseViewGroup
                 android:id="@+id/surface_view_group"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

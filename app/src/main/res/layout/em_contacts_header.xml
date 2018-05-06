@@ -5,36 +5,39 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <com.hyphenate.chatuidemo.widget.ContactItemView
+    <com.example.schoolIM.widget.ContactItemView
         android:id="@+id/application_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:contactItemImage="@drawable/em_new_friends_icon"
         app:contactItemName="@string/Application_and_notify" />
 
-    <com.hyphenate.chatuidemo.widget.ContactItemView
+    <com.example.schoolIM.widget.ContactItemView
         android:id="@+id/group_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:contactItemImage="@drawable/em_groups_icon"
         app:contactItemName="@string/group_chat" />
 
-    <com.hyphenate.chatuidemo.widget.ContactItemView
+    <com.example.schoolIM.widget.ContactItemView
         android:id="@+id/chat_room_item"
+        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:contactItemImage="@drawable/em_groups_icon"
         app:contactItemName="@string/chat_room" />
 
-    <com.hyphenate.chatuidemo.widget.ContactItemView
+    <com.example.schoolIM.widget.ContactItemView
         android:id="@+id/robot_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         app:contactItemImage="@drawable/em_groups_icon"
         app:contactItemName="@string/robot_chat" />
 
-    <com.hyphenate.chatuidemo.widget.ContactItemView
+    <com.example.schoolIM.widget.ContactItemView
         android:id="@+id/conference_item"
+        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:contactItemImage="@drawable/em_chat_video_call_normal"
