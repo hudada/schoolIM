@@ -28,11 +28,11 @@ android {
         abortOnError false
     }
 
-	sourceSets {
-		main {
-			jniLibs.srcDirs = ['libs']
-		}
-	}
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
 }
 
 dependencies {
@@ -50,6 +50,7 @@ dependencies {
     // bugly end
 
     compile project(':hmspush')
+    compile 'com.android.support.constraint:constraint-layout:1.1.0'
 }
 
 // ADD THIS AT THE BOTTOM
