@@ -10,11 +10,14 @@
         android:layout_height="0dip"
         android:layout_weight="1" >
 
-        <ImageView
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:src="@drawable/em_welcom_logo" />
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dip"
+            android:text="校园IM"
+            android:textColor="#000"
+            android:textSize="30sp" />
     </RelativeLayout>
 
     <LinearLayout

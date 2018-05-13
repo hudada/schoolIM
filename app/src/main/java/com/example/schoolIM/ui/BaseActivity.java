@@ -15,15 +15,24 @@
 package com.example.schoolIM.ui;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.os.Bundle;
+import android.widget.Toast;
+
+import com.example.schoolIM.widget.ProgressDialog;
 import com.hyphenate.easeui.ui.EaseBaseActivity;
 
 @SuppressLint("Registered")
 public class BaseActivity extends EaseBaseActivity {
 
+    private static Toast mToast;
+    public Context mContext;
+    private ProgressDialog progressDialog;
+
     @Override
     protected void onCreate(Bundle arg0) {
         super.onCreate(arg0);
+        mContext = this;
     }
 
     @Override
@@ -36,4 +45,23 @@ public class BaseActivity extends EaseBaseActivity {
         super.onStart();
     }
 
+    public void showToast(String str) {
+        if (mToast == null) {
+            mToast = Toast.makeText(mContext, str, Toast.LENGTH_SHORT);
+        } else {
+            mToast.setText(str);
+        }
+        mToast.show();
+    }
+
+    public void showProgress(Context context) {
+        if (progressDialog == null) {
+            progressDialog = new ProgressDialog(context);
+        }
+        progressDialog.show();
+    }
+
+    public void dismissDialog() {
+        progressDialog.dismiss();
+    }
 }

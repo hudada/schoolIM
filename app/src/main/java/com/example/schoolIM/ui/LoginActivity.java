@@ -30,7 +30,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.schoolIM.DemoHelper;
+import com.example.schoolIM.bean.UserObjBean;
 import com.example.schoolIM.db.DemoDBManager;
+import com.example.schoolIM.net.ApiManager;
+import com.example.schoolIM.net.BaseCallBack;
+import com.example.schoolIM.net.OkHttpTools;
+import com.example.schoolIM.utils.SpUtils;
 import com.hyphenate.easeui.utils.EaseCommonUtils;
 import com.hyphenate.EMCallBack;
 import com.hyphenate.chat.EMClient;
@@ -112,18 +117,18 @@ public class LoginActivity extends BaseActivity {
 	 */
 	public void login(View view) {
 		if (!EaseCommonUtils.isNetWorkConnected(this)) {
-			Toast.makeText(this, R.string.network_isnot_available, Toast.LENGTH_SHORT).show();
+			Toast.makeText(this, "网络不可用", Toast.LENGTH_SHORT).show();
 			return;
 		}
-		String currentUsername = usernameEditText.getText().toString().trim();
-		String currentPassword = passwordEditText.getText().toString().trim();
+		final String currentUsername = usernameEditText.getText().toString().trim();
+		final String currentPassword = passwordEditText.getText().toString().trim();
 
 		if (TextUtils.isEmpty(currentUsername)) {
-			Toast.makeText(this, R.string.User_name_cannot_be_empty, Toast.LENGTH_SHORT).show();
+			Toast.makeText(this, "用户名不能为空", Toast.LENGTH_SHORT).show();
 			return;
 		}
 		if (TextUtils.isEmpty(currentPassword)) {
-			Toast.makeText(this, R.string.Password_cannot_be_empty, Toast.LENGTH_SHORT).show();
+			Toast.makeText(this, "密码不能为空", Toast.LENGTH_SHORT).show();
 			return;
 		}
 
@@ -138,7 +143,7 @@ public class LoginActivity extends BaseActivity {
 				progressShow = false;
 			}
 		});
-		pd.setMessage(getString(R.string.Is_landing));
+		pd.setMessage("正在登录……");
 		pd.show();
 
 		// After logout，the DemoDB may still be accessed due to async callback, so the DemoDB will be re-opened again.
@@ -156,34 +161,50 @@ public class LoginActivity extends BaseActivity {
 			@Override
 			public void onSuccess() {
 				Log.d(TAG, "login: onSuccess");
+				OkHttpTools.sendPost(mContext, ApiManager.LOGIN)
+						.addParams("name",currentUsername)
+						.addParams("pwd",currentPassword)
+						.build()
+						.execute(new BaseCallBack<UserObjBean>(mContext,UserObjBean.class) {
+							@Override
+							public void onResponse(UserObjBean userObjBean) {
+								SpUtils.setUserBean(mContext,userObjBean.getData());
 
+								// ** manually load all local groups and conversation
+								EMClient.getInstance().groupManager().loadAllGroups();
+								EMClient.getInstance().chatManager().loadAllConversations();
 
-				// ** manually load all local groups and conversation
-			    EMClient.getInstance().groupManager().loadAllGroups();
-			    EMClient.getInstance().chatManager().loadAllConversations();
+								// update current user's display name for APNs
+								boolean updatenick = EMClient.getInstance().pushManager().updatePushNickname(
+										DemoApplication.currentUserNick.trim());
+								if (!updatenick) {
+									Log.e("LoginActivity", "update current user nick fail");
+								}
 
-			    // update current user's display name for APNs
-				boolean updatenick = EMClient.getInstance().pushManager().updatePushNickname(
-						DemoApplication.currentUserNick.trim());
-				if (!updatenick) {
-					Log.e("LoginActivity", "update current user nick fail");
-				}
+								if (!LoginActivity.this.isFinishing() && pd.isShowing()) {
+									pd.dismiss();
+								}
 
-				if (!LoginActivity.this.isFinishing() && pd.isShowing()) {
-				    pd.dismiss();
-				}
+								// 获取华为 HMS 推送 token
+								HMSPushHelper.getInstance().getHMSPushToken();
 
-				// 获取华为 HMS 推送 token
-				HMSPushHelper.getInstance().getHMSPushToken();
+								// get user's info (this should be get from App's server or 3rd party service)
+								DemoHelper.getInstance().getUserProfileManager().asyncGetCurrentUserInfo();
 
-				// get user's info (this should be get from App's server or 3rd party service)
-				DemoHelper.getInstance().getUserProfileManager().asyncGetCurrentUserInfo();
+								if (userObjBean.getData() != null) {
+									if (!TextUtils.isEmpty(userObjBean.getData().getHead())) {
+										DemoHelper.getInstance().getUserProfileManager()
+												.setCurrentUserAvatar(ApiManager.HEAD_PATH + userObjBean.getData().getHead());
+									}
+								}
 
-				Intent intent = new Intent(LoginActivity.this,
-						MainActivity.class);
-				startActivity(intent);
+								Intent intent = new Intent(LoginActivity.this,
+										MainActivity.class);
+								startActivity(intent);
 
-				finish();
+								finish();
+							}
+						});
 			}
 
 			@Override

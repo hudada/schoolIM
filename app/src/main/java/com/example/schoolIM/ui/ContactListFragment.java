@@ -16,6 +16,7 @@ package com.example.schoolIM.ui;
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.text.TextUtils;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.LayoutInflater;
@@ -27,9 +28,14 @@ import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.example.schoolIM.Constant;
 import com.example.schoolIM.DemoHelper;
+import com.example.schoolIM.bean.UserObjBean;
 import com.example.schoolIM.db.InviteMessgeDao;
+import com.example.schoolIM.net.ApiManager;
+import com.example.schoolIM.net.BaseCallBack;
+import com.example.schoolIM.net.OkHttpTools;
 import com.example.schoolIM.widget.ContactItemView;
 import com.hyphenate.easeui.ui.EaseContactListFragment;
 import com.example.schoolIM.db.UserDao;
@@ -45,7 +51,6 @@ import java.util.Map;
 
 /**
  * contact list
- *
  */
 public class ContactListFragment extends EaseContactListFragment {
 
@@ -92,6 +97,26 @@ public class ContactListFragment extends EaseContactListFragment {
             //noinspection unchecked
             m = (Map<String, EaseUser>) ((Hashtable<String, EaseUser>) m).clone();
         }
+
+        for (final String s : m.keySet()) {
+            final EaseUser user = m.get(s);
+            final Map<String, EaseUser> finalM = m;
+            OkHttpTools.sendPost(getActivity(), ApiManager.USER_FIND)
+                    .addParams("name", user.getUsername())
+                    .build()
+                    .execute(new BaseCallBack<UserObjBean>(getActivity(), UserObjBean.class) {
+                        @Override
+                        public void onResponse(UserObjBean userObjBean) {
+                            if (userObjBean.getData() != null) {
+                                if (!TextUtils.isEmpty(userObjBean.getData().getHead())) {
+                                    user.setAvatar(ApiManager.HEAD_PATH + userObjBean.getData().getHead());
+                                    finalM.put(s, user);
+                                }
+                            }
+                        }
+                    });
+        }
+
         setContactsMap(m);
         super.refresh();
         if (inviteMessgeDao == null) {
@@ -122,6 +147,26 @@ public class ContactListFragment extends EaseContactListFragment {
         if (m instanceof Hashtable<?, ?>) {
             m = (Map<String, EaseUser>) ((Hashtable<String, EaseUser>) m).clone();
         }
+
+        for (final String s : m.keySet()) {
+            final EaseUser user = m.get(s);
+            final Map<String, EaseUser> finalM = m;
+            OkHttpTools.sendPost(getActivity(), ApiManager.USER_FIND)
+                    .addParams("name", user.getUsername())
+                    .build()
+                    .execute(new BaseCallBack<UserObjBean>(getActivity(), UserObjBean.class) {
+                        @Override
+                        public void onResponse(UserObjBean userObjBean) {
+                            if (userObjBean.getData() != null) {
+                                if (!TextUtils.isEmpty(userObjBean.getData().getHead())) {
+                                    user.setAvatar(ApiManager.HEAD_PATH + userObjBean.getData().getHead());
+                                    finalM.put(s, user);
+                                }
+                            }
+                        }
+                    });
+        }
+
         setContactsMap(m);
         super.setUpView();
         listView.setOnItemClickListener(new OnItemClickListener() {

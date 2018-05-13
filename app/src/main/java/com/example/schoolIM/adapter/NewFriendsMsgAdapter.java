@@ -1,10 +1,10 @@
 /**
  * Copyright (C) 2016 Hyphenate Inc. All rights reserved.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *     http://www.apache.org/licenses/LICENSE-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -27,8 +27,16 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
+import com.example.schoolIM.bean.BaseResponse;
+import com.example.schoolIM.bean.UserBean;
+import com.example.schoolIM.bean.UserObjBean;
 import com.example.schoolIM.db.InviteMessgeDao;
 import com.example.schoolIM.domain.InviteMessage;
+import com.example.schoolIM.net.ApiManager;
+import com.example.schoolIM.net.BaseCallBack;
+import com.example.schoolIM.net.OkHttpTools;
+import com.example.schoolIM.utils.SpUtils;
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.schoolIM.R;
 
@@ -36,66 +44,86 @@ import java.util.List;
 
 public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 
-	private Context context;
-	private InviteMessgeDao messgeDao;
+    private Context context;
+    private InviteMessgeDao messgeDao;
+    private UserBean userBean;
 
-	public NewFriendsMsgAdapter(Context context, int textViewResourceId, List<InviteMessage> objects) {
-		super(context, textViewResourceId, objects);
-		this.context = context;
-		messgeDao = new InviteMessgeDao(context);
-	}
+    public NewFriendsMsgAdapter(Context context, int textViewResourceId, List<InviteMessage> objects) {
+        super(context, textViewResourceId, objects);
+        this.context = context;
+        messgeDao = new InviteMessgeDao(context);
+    }
 
-	@Override
-	public View getView(int position, View convertView, ViewGroup parent) {
-		final ViewHolder holder;
-		if (convertView == null) {
-			holder = new ViewHolder();
-			convertView = View.inflate(context, R.layout.em_row_invite_msg, null);
-			holder.avator = (ImageView) convertView.findViewById(R.id.avatar);
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        final ViewHolder holder;
+        if (convertView == null) {
+            holder = new ViewHolder();
+            convertView = View.inflate(context, R.layout.em_row_invite_msg, null);
+            holder.avator = (ImageView) convertView.findViewById(R.id.avatar);
             holder.name = (TextView) convertView.findViewById(R.id.name);
-			holder.message = (TextView) convertView.findViewById(R.id.message);
+            holder.message = (TextView) convertView.findViewById(R.id.message);
             holder.agreeBtn = (Button) convertView.findViewById(R.id.agree);
-			holder.refuseBtn = (Button) convertView.findViewById(R.id.refuse);
-			// holder.time = (TextView) convertView.findViewById(R.id.time);
-			convertView.setTag(holder);
-		} else {
-			holder = (ViewHolder) convertView.getTag();
-		}
+            holder.refuseBtn = (Button) convertView.findViewById(R.id.refuse);
+            // holder.time = (TextView) convertView.findViewById(R.id.time);
+            convertView.setTag(holder);
+        } else {
+            holder = (ViewHolder) convertView.getTag();
+        }
 
-		final InviteMessage msg = getItem(position);
-		if (msg != null) {
+        final InviteMessage msg = getItem(position);
+        if (msg != null) {
             holder.agreeBtn.setVisibility(View.GONE);
             holder.refuseBtn.setVisibility(View.GONE);
 
 
-			holder.message.setText(msg.getReason());
-			holder.name.setText(msg.getFrom());
-			// holder.time.setText(DateUtils.getTimestampString(new
-			// Date(msg.getTime())));
-			if (msg.getStatus() == InviteMessage.InviteMessageStatus.BEAGREED) {
+            holder.message.setText(msg.getReason());
+            holder.name.setText(msg.getFrom());
+            // holder.time.setText(DateUtils.getTimestampString(new
+            // Date(msg.getTime())));
+            if (msg.getStatus() == InviteMessage.InviteMessageStatus.BEAGREED) {
                 holder.agreeBtn.setVisibility(View.GONE);
-				holder.refuseBtn.setVisibility(View.GONE);
-				holder.message.setText(context.getResources().getString(R.string.Has_agreed_to_your_friend_request));
-			} else if (msg.getStatus() == InviteMessage.InviteMessageStatus.BEINVITEED || msg.getStatus() == InviteMessage.InviteMessageStatus.BEAPPLYED ||
-			        msg.getStatus() == InviteMessage.InviteMessageStatus.GROUPINVITATION) {
-			    holder.agreeBtn.setVisibility(View.VISIBLE);
-				holder.refuseBtn.setVisibility(View.VISIBLE);
-				if(msg.getStatus() == InviteMessage.InviteMessageStatus.BEINVITEED){
-					if (msg.getReason() == null) {
-						// use default text
-						holder.message.setText(context.getResources().getString(R.string.Request_to_add_you_as_a_friend));
-					}
-				}else if (msg.getStatus() == InviteMessage.InviteMessageStatus.BEAPPLYED) { //application to join group
-					if (TextUtils.isEmpty(msg.getReason())) {
-						holder.message.setText(context.getResources().getString(R.string.Apply_to_the_group_of) + msg.getGroupName());
-					}
-				} else if (msg.getStatus() == InviteMessage.InviteMessageStatus.GROUPINVITATION) {
-				    if (TextUtils.isEmpty(msg.getReason())) {
+                holder.refuseBtn.setVisibility(View.GONE);
+                holder.message.setText(context.getResources().getString(R.string.Has_agreed_to_your_friend_request));
+            } else if (msg.getStatus() == InviteMessage.InviteMessageStatus.BEINVITEED || msg.getStatus() == InviteMessage.InviteMessageStatus.BEAPPLYED ||
+                    msg.getStatus() == InviteMessage.InviteMessageStatus.GROUPINVITATION) {
+                holder.agreeBtn.setVisibility(View.VISIBLE);
+                holder.refuseBtn.setVisibility(View.VISIBLE);
+                if (msg.getStatus() == InviteMessage.InviteMessageStatus.BEINVITEED) {
+                    if (msg.getReason() == null) {
+                        // use default text
+                        holder.message.setText(context.getResources().getString(R.string.Request_to_add_you_as_a_friend));
+                    }
+                } else if (msg.getStatus() == InviteMessage.InviteMessageStatus.BEAPPLYED) { //application to join group
+                    if (TextUtils.isEmpty(msg.getReason())) {
+                        holder.message.setText(context.getResources().getString(R.string.Apply_to_the_group_of) + msg.getGroupName());
+                    }
+                } else if (msg.getStatus() == InviteMessage.InviteMessageStatus.GROUPINVITATION) {
+                    if (TextUtils.isEmpty(msg.getReason())) {
                         holder.message.setText(context.getResources().getString(R.string.invite_join_group) + msg.getGroupName());
                     }
-				}
-				
-				// set click listener
+                }
+
+                OkHttpTools.sendPost(context, ApiManager.USER_FIND)
+                        .addParams("name", msg.getFrom())
+                        .build()
+                        .execute(new BaseCallBack<UserObjBean>(context, UserObjBean.class) {
+                            @Override
+                            public void onResponse(UserObjBean userObjBean) {
+
+                                if (userObjBean.getData() != null) {
+                                    userBean = userObjBean.getData();
+                                    if (TextUtils.isEmpty(userObjBean.getData().getHead())) {
+                                        holder.avator.setImageResource(R.drawable.em_default_avatar);
+                                    } else {
+                                        Glide.with(context).load(ApiManager.HEAD_PATH + userObjBean.getData().getHead())
+                                                .into(holder.avator);
+                                    }
+                                }
+                            }
+                        });
+
+                // set click listener
                 holder.agreeBtn.setOnClickListener(new OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -103,16 +131,16 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
                         acceptInvitation(holder.agreeBtn, holder.refuseBtn, msg);
                     }
                 });
-				holder.refuseBtn.setOnClickListener(new OnClickListener() {
-					@Override
-					public void onClick(View v) {
-						// decline invitation
-					    refuseInvitation(holder.agreeBtn, holder.refuseBtn, msg);
-					}
-				});
-			} else {
-				String str = "";
-				InviteMessage.InviteMessageStatus status = msg.getStatus();
+                holder.refuseBtn.setOnClickListener(new OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        // decline invitation
+                        refuseInvitation(holder.agreeBtn, holder.refuseBtn, msg);
+                    }
+                });
+            } else {
+                String str = "";
+                InviteMessage.InviteMessageStatus status = msg.getStatus();
                 switch (status) {
                     case AGREED:
                         str = context.getResources().getString(R.string.Has_agreed_to);
@@ -228,74 +256,90 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
             }
         }
 
-		return convertView;
-	}
+        return convertView;
+    }
 
-	/**
-	 * accept invitation
-	 * 
-	 * @param buttonAgree
-	 * @param buttonRefuse
-	 * @param msg
-	 */
-	private void acceptInvitation(final Button buttonAgree, final Button buttonRefuse, final InviteMessage msg) {
-		final ProgressDialog pd = new ProgressDialog(context);
-		String str1 = context.getResources().getString(R.string.Are_agree_with);
-		final String str2 = context.getResources().getString(R.string.Has_agreed_to);
-		final String str3 = context.getResources().getString(R.string.Agree_with_failure);
-		pd.setMessage(str1);
-		pd.setCanceledOnTouchOutside(false);
-		pd.show();
-
-		new Thread(new Runnable() {
-			public void run() {
-				// call api
-				try {
-					if (msg.getStatus() == InviteMessage.InviteMessageStatus.BEINVITEED) {//accept be friends
-						EMClient.getInstance().contactManager().acceptInvitation(msg.getFrom());
-					} else if (msg.getStatus() == InviteMessage.InviteMessageStatus.BEAPPLYED) { //accept application to join group
-						EMClient.getInstance().groupManager().acceptApplication(msg.getFrom(), msg.getGroupId());
-					} else if (msg.getStatus() == InviteMessage.InviteMessageStatus.GROUPINVITATION) {
-					    EMClient.getInstance().groupManager().acceptInvitation(msg.getGroupId(), msg.getGroupInviter());
-					}
-                    msg.setStatus(InviteMessage.InviteMessageStatus.AGREED);
-                    // update database
-                    ContentValues values = new ContentValues();
-                    values.put(InviteMessgeDao.COLUMN_NAME_STATUS, msg.getStatus().ordinal());
-                    messgeDao.updateMessage(msg.getId(), values);
-					((Activity) context).runOnUiThread(new Runnable() {
-
-						@Override
-						public void run() {
-							pd.dismiss();
-							buttonAgree.setText(str2);
-							buttonAgree.setBackgroundDrawable(null);
-							buttonAgree.setEnabled(false);
-							
-							buttonRefuse.setVisibility(View.INVISIBLE);
-						}
-					});
-				} catch (final Exception e) {
-					((Activity) context).runOnUiThread(new Runnable() {
-
-						@Override
-						public void run() {
-							pd.dismiss();
-							Toast.makeText(context, str3 + e.getMessage(), Toast.LENGTH_LONG).show();
-						}
-					});
-
-				}
-			}
-		}).start();
-	}
-	
-	/**
-     * decline invitation
-     * 
+    /**
+     * accept invitation
+     *
      * @param buttonAgree
      * @param buttonRefuse
-	 * @param msg
+     * @param msg
+     */
+    private void acceptInvitation(final Button buttonAgree, final Button buttonRefuse, final InviteMessage msg) {
+        final ProgressDialog pd = new ProgressDialog(context);
+        String str1 = context.getResources().getString(R.string.Are_agree_with);
+        final String str2 = context.getResources().getString(R.string.Has_agreed_to);
+        final String str3 = context.getResources().getString(R.string.Agree_with_failure);
+        pd.setMessage(str1);
+        pd.setCanceledOnTouchOutside(false);
+        pd.show();
+
+        new Thread(new Runnable() {
+            public void run() {
+                // call api
+                ((Activity) context).runOnUiThread(new Runnable() {
+
+                    @Override
+                    public void run() {
+                        OkHttpTools.sendPost(context, ApiManager.FRIEND_ADD)
+                                .addParams("uid", SpUtils.getUserBean(context).getId() + "")
+                                .addParams("fid", userBean.getId() + "")
+                                .build()
+                                .execute(new BaseCallBack<BaseResponse>(context, BaseResponse.class) {
+                                    @Override
+                                    public void onResponse(BaseResponse baseResponse) {
+                                        try {
+                                            if (msg.getStatus() == InviteMessage.InviteMessageStatus.BEINVITEED) {//accept be friends
+                                                EMClient.getInstance().contactManager().acceptInvitation(msg.getFrom());
+                                            } else if (msg.getStatus() == InviteMessage.InviteMessageStatus.BEAPPLYED) { //accept application to join group
+                                                EMClient.getInstance().groupManager().acceptApplication(msg.getFrom(), msg.getGroupId());
+                                            } else if (msg.getStatus() == InviteMessage.InviteMessageStatus.GROUPINVITATION) {
+                                                EMClient.getInstance().groupManager().acceptInvitation(msg.getGroupId(), msg.getGroupInviter());
+                                            }
+                                            msg.setStatus(InviteMessage.InviteMessageStatus.AGREED);
+                                            // update database
+                                            ContentValues values = new ContentValues();
+                                            values.put(InviteMessgeDao.COLUMN_NAME_STATUS, msg.getStatus().ordinal());
+                                            messgeDao.updateMessage(msg.getId(), values);
+                                            ((Activity) context).runOnUiThread(new Runnable() {
+
+                                                @Override
+                                                public void run() {
+                                                    pd.dismiss();
+                                                    buttonAgree.setText(str2);
+                                                    buttonAgree.setBackgroundDrawable(null);
+                                                    buttonAgree.setEnabled(false);
+
+                                                    buttonRefuse.setVisibility(View.INVISIBLE);
+                                                }
+                                            });
+
+                                        } catch (final Exception e) {
+                                            ((Activity) context).runOnUiThread(new Runnable() {
+
+                                                @Override
+                                                public void run() {
+                                                    pd.dismiss();
+                                                    Toast.makeText(context, str3 + e.getMessage(), Toast.LENGTH_LONG).show();
+                                                }
+                                            });
+
+                                        }
+                                    }
+                                });
+                    }
+                });
+            }
+        }).start();
+    }
+
+    /**
+     * decline invitation
+     *
+     * @param buttonAgree
+     * @param buttonRefuse
+     * @param msg
      */
     private void refuseInvitation(final Button buttonAgree, final Button buttonRefuse, final InviteMessage msg) {
         final ProgressDialog pd = new ProgressDialog(context);
@@ -349,12 +393,12 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
         }).start();
     }
 
-	private static class ViewHolder {
-		ImageView avator;
-		TextView name;
-		TextView message;
+    private static class ViewHolder {
+        ImageView avator;
+        TextView name;
+        TextView message;
         Button agreeBtn;
-		Button refuseBtn;
-	}
+        Button refuseBtn;
+    }
 
 }
